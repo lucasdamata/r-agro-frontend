@@ -1,0 +1,34 @@
+#page-sidebar aside {
+  height: 100%;
+  width: 31.6rem;
+  
+  background: #49D49D ;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#page-sidebar aside img {
+  padding-top: 4.9rem;
+  padding-bottom: 4.2rem;
+}
+
+#page-sidebar aside nav ul li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 31.6rem;
+  height: 7.1rem;
+  margin-bottom: 1.8rem;
+  text-decoration: none;
+  color: #fff;
+  transition: 0.5s;
+
+  background: #2FCA8C;
+}
+
+#page-sidebar aside nav ul li  a:hover {
+  
+  background: #29AE78;
+}

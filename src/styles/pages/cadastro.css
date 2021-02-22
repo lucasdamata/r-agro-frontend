@@ -1,0 +1,26 @@
+#page-landing {
+  display: flex;
+  height: 100vh;
+  max-height: 98rem;
+  width: 100vw;
+}
+
+#formulario {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+}
+
+#formulario Form {
+  width: 77.2rem;
+  height: 46.6rem;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+
+
+

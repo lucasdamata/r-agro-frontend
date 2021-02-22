@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body {
+  color: #fff;
+  background: #E8E2E3;
+  
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+body, input , button, textarea {
+  font: 600 1.8rem Barlow, sans-serif;
+}
