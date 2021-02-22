@@ -6,6 +6,51 @@
   display: flex;
 }
 
+#registros {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#registros .search {
+  display: flex;
+  width: 77.2rem;
+  height: 4.9rem;
+  outline: none;
+  background: url(../../images/search.svg) no-repeat scroll 0.7rem 0.7rem ;
+  padding-left: 3.5rem;
+  border-radius: 3rem;
+  background-color: #fff;
+  margin: 7.2rem;
+  
+}
+
+#registros .container{
+  height: 100vh;
+  width: 50%;
+  margin-left: 13.1rem;
+  margin-right: 13.1rem;
+  background: #fff;
+}
+
+#registros .filter{
+  display: flex;
+  width: 50%;
+  justify-content: flex-end;
+}
+
+#registros div .filterDate{
+    border: 10rem;
+    border-color:  red;
+    outline: none;
+    background: none;
+
+}
+
+
+
 
 
 
