@@ -58,30 +58,43 @@ function Cadastro(){
         <Sidebar />
         <div id="formulario">
             <Form ref={formRef} initialData={initialData}  onSubmit={ handleSubmit}>
-              <Input  name="os" />
-              <Input  name="location" />
+            <fieldset>  
+             
+              <div className='colum01'>
+                <Input className="os"  name="os" /> 
+                <Input className="location"  name="location" />
+              </div>
               
               <Scope path='time'>
-                <Input  name="initial" />
-                <Input  name="final" />
-                <Input  name="date" />
-              </Scope>
-
-              <Scope path='machine'>
-              <Input  name="nameMachine" />
-              <Input  name="inplementMachine" />
-              </Scope>
-
-              <Input  name="operator" />
-
-              <Scope path='inputs'>
-                  <Input  name="input" />
-                  <Input  name="amount" />
+                <div className="colum02">
+                <Input type='time' className="initial"  name="initial" />
+                <Input type='time' className="final"  name="final" />
+                <Input type='date' className="date"  name="date" />
+                </div>
               </Scope>
               
+              <Scope path='machine'>
+                <div className="colum03">
+                  <Input className="nameMachine"  name="nameMachine" />
+                  <Input className="inplementMachine"  name="inplementMachine" />
+                </div>
+              </Scope>
 
-              <button type='submit'>Enviar</button>
+              <Input className="operator"  name="operator" />
+
+              <Scope path='inputs'>
+                <div className="colum04">
+                  <Input className="input"  name="input" />
+                  <Input  type='number' className="amount"  name="amount" />
+                </div>
+              </Scope>
+              
+              
+
+              <button className="formButton" type='submit'>SALVAR</button>
+              </fieldset>
             </Form>
+            
         </div>
     </div>
     

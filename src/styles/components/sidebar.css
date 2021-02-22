@@ -1,6 +1,6 @@
 #page-sidebar aside {
   height: 100%;
-  width: 31.6rem;
+  width: 25rem;
   
   background: #49D49D ;
 
@@ -18,7 +18,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 31.6rem;
+  width: 25rem;
   height: 7.1rem;
   margin-bottom: 1.8rem;
   text-decoration: none;
