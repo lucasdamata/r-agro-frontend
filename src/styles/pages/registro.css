@@ -28,11 +28,13 @@
 }
 
 #registros .container{
+  display: flex;
   height: 100vh;
   width: 50%;
   margin-left: 13.1rem;
   margin-right: 13.1rem;
   background: #fff;
+  position: relative;
 }
 
 #registros .filter{
@@ -47,6 +49,39 @@
     outline: none;
     background: none;
 
+}
+
+#registros .container .card{
+  display: flex;
+  flex-direction: column;
+  background: #C2B2B4;
+  height: 5rem;
+  width: 100%;
+  color: black;
+  
+  
+}
+
+#registros .container .card  button {
+  background: none;
+  border: 0;
+  outline: none;
+  transition: 0.3s;
+  margin-top: 0.5rem;
+}
+
+#registros .container .card  button:active{
+  background: rgba(245, 221, 221, 0.63);
+}
+
+#registros .container .card  .buttonDelete{
+  position: absolute;
+  right: 0;
+}
+#registros .container .card  .buttonDetails{
+  position: absolute;
+  right: 0;
+  margin-right: 4rem;
 }
 
 
