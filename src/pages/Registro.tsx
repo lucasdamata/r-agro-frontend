@@ -24,8 +24,8 @@ function Registro(){
                       <strong>OS0001</strong> 
                       <br/> Data:24/02/2021
                 </p>
-                <button className="buttonDetails"><FiAlertCircle size={35} color='blue' /></button>
-                <button className="buttonDelete"><FiXCircle size={35} color='red' /></button>
+                <button className="buttonDetails"><FiAlertCircle size={30} color='blue' /></button>
+                <button className="buttonDelete"><FiXCircle size={30} color='red' /></button>
               </div>
            </div>
 

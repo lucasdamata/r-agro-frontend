@@ -12,10 +12,10 @@ export default function Sidebar(){
               <nav>
                 <ul>
                   <li>
-                        <Link to="cadastro" id="teste" >Cadastro</Link>
+                        <Link to="cadastro" id="teste" >Cadastrar</Link>
                   </li>
                   <li>
-                  <Link to='registro' id="teste" >Registro</Link>
+                  <Link to='registro' id="teste" >Registros</Link>
                   </li>
                 </ul>
               </nav>

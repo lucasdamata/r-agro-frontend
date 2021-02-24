@@ -57,57 +57,77 @@ function Cadastro(){
     
     <div id="page-landing">
         <Sidebar />
-        <div id="formulario">
+        <div className="form">
             <Form ref={formRef} initialData={initialData}  onSubmit={ handleSubmit}>
             <fieldset>  
-             
-              <div className='colum01'>
-                <label htmlFor="labelOS">OS</label>
-                <Input  className="os"  name="os" /> 
-                <Scope path='time'>
-                <label htmlFor="labelInitial">Inicio</label>
-                <Input type='time' className="initial"  name="initial" />
-                <label htmlFor="labelFinal">Final</label>
-                <Input type='time' className="final"  name="final" />
-                <label htmlFor="labelDate">Data</label>
-                <Input type='date' className="date"  name="date" />
-              </Scope>
-              </div>
+            <div className="block1">
+                <div>
+                    <label htmlFor="labelOS">Ordem de serviço</label>
+                    <Input  className="os"  name="os" /> 
+                  </div>
+                  
+                    <Scope path='time'>
+                    <div className="block101">
+                      <div className="inputDirection">
+                        <label htmlFor="labelInitial">Inicio</label>
+                        <Input type='time' className="initial"  name="initial" />
+                      </div>
+                      <div className="inputDirection">
+                        <label htmlFor="labelFinal">Final</label>
+                        <Input type='time' className="final"  name="final" />
+                      </div>
+                      <div className="inputDirection">
+                        <label htmlFor="labelDate">Data</label>
+                        <Input type='date' className="date"  name="date" />
+                      </div>
+                    </div>
+                </Scope>
+                
+               </div>
         
-              <div className="colum02">
-              <label htmlFor="labelLocation">Lugar</label>
-              <Input className="location"  name="location" />
-              </div>
-              
-              <Scope path='machine'>
-                <div className="colum03">
-                <label htmlFor="labelNameMachine">Máquina</label>
-                  <Input className="nameMachine"  name="nameMachine" />
-                <label htmlFor="labelImplementMachine">Complemento</label>
-                  <Input className="inplementMachine"  name="inplementMachine" />
-                  <button type='button'   className='buttonMachine'  onClick={()=>{}}><FiPlusSquare size={30}  /></button>
+                <div className="block2">
+                <Scope path='machine'>
+                <div className="block101">
+                  <div className="inputDirection">
+                    <label htmlFor="labelLocation">Lugar</label>
+                    <Input className="location"  name="location" />
+                  </div>
+                <div className="inputDirection">
+                    <label htmlFor="labelNameMachine">Máquina</label>
+                    <Input className="nameMachine"  name="nameMachine" />
+                  </div>
+                  <div className="inputDirection">
+                  <label htmlFor="labelImplementMachine">Complemento</label>
+                    <Input className="inplementMachine"  name="inplementMachine" />
+                    </div>
+                    <button type='button'   className='buttomMachine'  onClick={()=>{}}><FiPlusSquare size={30}  /></button>
+                  </div>
+                </Scope>
                 </div>
-              </Scope>
-              <div className="colum05">
-              <label htmlFor="labelOperator">Operador</label>
-                  <Input className="operator"  name="operator" />
-              </div>
-              <Scope path='inputs'>
-                <div className="colum04">
-                <label htmlFor="labelFinal">Insumo</label>
-                  <Input className="input"  name="input" />
-                <label htmlFor="labelFinal">Quantidade</label>
-                  <Input  type='number' className="amount"  name="amount" />
-                  <button type='button'   className='buttonInput'  onClick={()=>{}}><FiPlusSquare size={30}  /></button>
+                <div className="block101">
+                <div className="inputDirection">
+                   <label htmlFor="labelOperator">Operador</label>
+                   <Input className="operator"  name="operator" />
+                  </div>
+                <Scope path='inputs'>
+                <div className="inputDirection">
+                  <label htmlFor="labelFinal">Insumo</label>
+                    <Input className="input"  name="input" />
                 </div>
-              </Scope>
+                <div className="inputDirection">
+                    <label htmlFor="labelFinal">Quantidade</label>
+                    <Input  type='number' className="amount"  name="amount" />
+                  </div>
+                    <button type='button'   className='buttomInput'  onClick={()=>{}}><FiPlusSquare size={30}  /></button>
               
-              
-
-              <button className="formButton" type='submit'>SALVAR</button>
+                </Scope>
+                </div>
+                
+              <div className="positionButtom">
+                <button className="formButton" type='submit'>SALVAR</button>
+                </div>
               </fieldset>
             </Form>
-            
         </div>
     </div>
     

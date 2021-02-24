@@ -54,7 +54,7 @@
 #registros .container .card{
   display: flex;
   flex-direction: column;
-  background: #C2B2B4;
+  background: rgba(128, 128, 128, 0.61);
   height: 5rem;
   width: 100%;
   color: black;

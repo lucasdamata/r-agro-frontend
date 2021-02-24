@@ -5,131 +5,98 @@
   width: 100vw;
 }
 
-#formulario {
+#page-landing .form {
   display: flex;
-  width: 100vw;
+  width: 100%;
   justify-content: center;
-  
-  align-items: center;
-  position: relative;
+  align-items: center ;
 }
 
-#formulario Form {
+#page-landing .form Form{
   display: flex;
+  align-items: center;
   justify-content: center;
   width: 77.2rem;
-  max-width: 77.2rem;
   height: 46.6rem;
-  padding-left: 12rem;
-  
-}
-
-#formulario Form fieldset {
-  display: flex;
-  justify-content: center;
-
-  flex-direction: column;
-  width: 77.2rem;
-  max-width: 77.2rem;
-  border: none;
   position: relative;
-}
-
-.colum01{
-  display: flex;
-  align-items: center;
   
 }
-.colum02{
+
+#page-landing .form Form fieldset{
   display: flex;
-  align-items: center;
-     
+  width: 100%;
+  flex-direction: column;
+  border: 1;
+  background: #ffff;
+  color: black;
+  padding: 5rem;
 }
-.colum03{
+
+
+#page-landing .form Form fieldset .block1 {
   display: flex;
+  width: 100%;
   flex-direction: row;
-  align-items: center;
+  margin-left: 5rem;
+}
+#page-landing .form Form fieldset .block101 {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
   
-
 }
-.colum04{
+#page-landing .form Form fieldset .inputDirection{
   display: flex;
-  flex-direction: row;
-}
-.colum05{
-  display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  margin-left: 5rem;
+  
+  
 }
 
-#formulario Form fieldset Input{
-  border-radius: 1.1rem;
-  height: 3rem;
-  margin: 2rem;
+#page-landing .form Form fieldset .block2 {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  
+}
+
+#page-landing .form Form fieldset .buttomMachine{
+  border: 0;
+  background: none;
+  margin-top: 2rem;
+  margin-left: 2rem;
   outline: none;
-  
+}
+#page-landing .form Form fieldset .buttomInput{
+  border: 0;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  background: none;
+  outline: none;
 }
 
-#formulario Form fieldset .os{
+#page-landing .form Form fieldset .formButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 10rem;
-  margin-right: 5rem;
-}
-#formulario Form fieldset .location{
-  width: 70rem;
-
-}
-#formulario Form fieldset .initial{
-  width: auto;
-}
-#formulario Form fieldset .final{
-  width: auto;
-}
-#formulario Form fieldset .operator{
-  width: 53rem;
-}
-
-#formulario Form fieldset .buttonMachine{
-  display: flex;
-  justify-content: center;
-  border: none;
-  background: none;
-  align-items: center;
-  width: auto;
-  height: 3rem;
-  margin-left: 1.3rem;
-  
-}
-#formulario Form fieldset .buttonInput{
-  display: flex;
-  justify-content: center;
-  border: none;
-  background: none;
-  border: none;
-  align-items: center;
-  width: auto;
-  height: 3rem;
-  margin-left: 4.2rem;
+  height: 4rem;
+  border-radius: 1.5rem;
   outline: none;
-  
+  background: #617AD6;
+  color: #ffff;
+  font-weight: 800;
+  margin-top: 2rem;
 }
 
-#formulario Form fieldset .formButton {
-    position: absolute;
-    width: 12rem;
-    height: 4rem;
-    background: #617AD6;  
-    font-size: 1.8rem;
-    color: #fff;
-    right: 0;
-    bottom: 0;
-    border-radius: 0.4rem;
-    margin-top: 5rem;
-    outline: none;
-    
+#page-landing .form Form fieldset .positionButtom{
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
 }
 
-label{
-  color: gray;
+#page-landing .form Form fieldset input{
+  border-radius: 3rem;
+  outline: none;
 }
-
-
 
